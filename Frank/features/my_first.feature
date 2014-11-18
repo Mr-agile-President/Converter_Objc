@@ -7,4 +7,4 @@ Scenario:
     Rotating the simulator for demonstration purposes
 Given I launch the app
 When I touch "2"
-Then I should see "2"
+Then I should see "2" in the display
