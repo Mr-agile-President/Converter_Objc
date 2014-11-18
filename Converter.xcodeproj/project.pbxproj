@@ -29,6 +29,7 @@
 		27D163411A1B58E700B7D3D5 /* ConverterControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D163401A1B58E700B7D3D5 /* ConverterControllerTest.m */; };
 		27D163491A1B7BD200B7D3D5 /* Numberpad.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D163481A1B7BD200B7D3D5 /* Numberpad.m */; };
 		27D1634B1A1B7E7B00B7D3D5 /* NumberpadTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D1634A1A1B7E7B00B7D3D5 /* NumberpadTest.m */; };
+		27D1634C1A1B942300B7D3D5 /* Numberpad.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D163481A1B7BD200B7D3D5 /* Numberpad.m */; };
 		4589097A1ACD069896B70613 /* libPods-ConverterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF26E4C8ECD24EC98ED0341C /* libPods-ConverterTests.a */; };
 /* End PBXBuildFile section */
 
@@ -408,6 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26D174541A14F50700021DC0 /* CurrencyRateUpdater.m in Sources */,
+				27D1634C1A1B942300B7D3D5 /* Numberpad.m in Sources */,
 				26BE264D1A14AB8D00CC364C /* ConverterController.m in Sources */,
 				26BE263D1A14AA6400CC364C /* AppDelegate.m in Sources */,
 				26BE263E1A14AA6400CC364C /* main.m in Sources */,
