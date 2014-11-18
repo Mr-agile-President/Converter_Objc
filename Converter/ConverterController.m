@@ -13,10 +13,12 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	self.displayLabel.text = @"0";
+    self.numberpad = [[Numberpad alloc] init];
 }
 
 - (IBAction)buttonTouched:(id)sender {
-    self.displayLabel.text = [NSString stringWithFormat:@"%ld", (long)[sender tag]];
+    [self.numberpad buttonTouched:sender];
+    self.displayLabel.text = self.numberpad.currentValue;
 }
 
 
